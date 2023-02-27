@@ -1,0 +1,24 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+@font-face {
+    font-family: Pokemon;
+    src: url(../fonts/Pokemon\ Solid.ttf);
+}
+
+:root{
+    --cor1: #F2B872;
+    --cor2: #D97236;
+    --cor3: #400D01;
+}
+
+h1{
+    color: var(--cor1);
+    font-family: Pokemon;    
+}
+
+h2{
+    font-family: 'Dancing Script', cursive;
+}

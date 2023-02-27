@@ -1,0 +1,35 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Pokemon;
+    src: url(../fonts/Pokemon.ttf);
+ }
+
+body{
+    margin: 100px;
+}
+
+h1{ /* Seletor a ser alterado */
+    font-family: Pokemon; /* Declaração: Propiedade que queremos alterar, no caso o font-family e o valor que queromos aplicar. */
+    color: dodgerblue;
+    font-size: 32px;
+    background-color: black;
+}
+a{
+    color: fuchsia;
+    text-decoration: none;
+    background-color: black;
+}
+
+a:hover{ /* Quando coloco a seta do mouse em cima */
+    background-color: blue;
+}
+
+a:visited{
+    color: white;
+}
+span{
+    color: red;
+}
+span{
+    color: green;
+}

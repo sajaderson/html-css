@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+#tituloUm{
+    color: red;
+}
+#tituloDois{
+    color: green;
+}
+.subTituloUm{
+    color: orange;
+}
+.subTituloDois{
+    color: dodgerblue;
+}
+.destaque1{
+    color: gold;
+}
+.destaque2{
+    color: fuchsia;
+}
